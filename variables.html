@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+        //if you don't input name on website it will say Hello null (prompt returned with nothing)
+        //typeof in console will say string, even if you write 42 (name is automatically a string)
+        var name = prompt("What is your name?");
+        console.log("Hello " + name);
+
+        //not alerted, only shown in console
+        console.log(name.length);
+
+        //alerts the length of name (commented out)
+        //alert(name.length);
+
+        //still a string
+        var age = prompt("How old are you?");
+        console.log("You are " + age);
+
+        //not alerted, only shown in console
+        console.log(typeof age);
+
+        //integer
+        var number = 456;
+        alert(number);
+
+        //double
+        var longNumber = 4.5667;
+        alert(longNumber);
+
+        //boolean
+        var myVar = true;
+        alert(myVar);
+
+        //array type
+        var fruit = ["orange", " apple", " peach"];
+        alert(fruit);
+
+        //object type
+        var person = { name: "John", age: 35 };
+        alert(person);
+
+
+
+    </script>
+  </body>
+</html>

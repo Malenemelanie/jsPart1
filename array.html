@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+        var users =["Aplha", "Bravo", "Charlie", "Delta"];
+        var userIndex = prompt("Write the users index");
+        //console.log(users[userIndex]);
+        //write 0-3 to get the user name back
+        //log(users[userIndex]); instead of writing 1 etc in [] it is now dynamic
+        if(typeof(users[userIndex]) === 'string') {
+          alert('user exists, with user name:' + users[userIndex]);
+        }
+        else {
+          alert('user does not exist');
+        }
+        //this ensures that the data exists, makes sure the user does not return undefined, and that they get the right error message so they know what went wrong
+    </script>
+  </body>
+</html>
